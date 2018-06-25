@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+/**
+ * 选择右端最值放到当前位置，所以叫选择排序
+ */
 public class SelectionSort {
     public void selectSort(int[] a) {
         for(int i=0;i<a.length;i++) {
